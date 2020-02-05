@@ -611,7 +611,6 @@ t_tscalar year_bucket<DTYPE_DATE>(t_tscalar x) {
     t_tscalar rval;
     t_date val = x.get<t_date>();
     rval.set(t_date(val.year(), 0, 1));
-    std::cout << rval << std::endl;
     return rval;
 }
 
@@ -634,7 +633,6 @@ t_tscalar year_bucket<DTYPE_TIME>(t_tscalar x) {
     // Get the year and create a new `t_date`
     std::int32_t year = static_cast<std::int32_t>(ymd.year());
     rval.set(t_date(year, 0, 1));
-    std::cout << rval << std::endl;
     return rval;
 }
 
