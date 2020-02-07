@@ -9,12 +9,9 @@
     "@finos/perspective-webpack-plugin": "^0.4.1",
     "cpx": "^1.5.0",
     "file-loader": "^0.11.1",
-    "jest": "^24.8.0",
     "jest-transform-css": "^2.0.0",
     "native-ext-loader": "^2.3.0",
-    "rimraf": "^2.5.2",
-    "webpack": "^4.31.0",
-    "webpack-cli": "^3.3.2"
+    "rimraf": "^2.5.2"
   },
   "peerDependencies": {
     "bufferutil": "^3.0.0",
